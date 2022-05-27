@@ -6,6 +6,10 @@ porównywania (po długości) oraz powinny posiadać czytelną
 reprezentację napisową.
 
 """
+
+
+
+halo halo!  kora z tej strony
 import math
 
 class Vector:
