@@ -38,7 +38,7 @@ class Transakcja:
                 # lista.append(Transakcja(Decimal(t[5]), int(t[6]), *t[:5]))
         return lista
 
-lista = Transakcja.read_file('sprzedaz.csv')
+lista = Transakcja.read_file('sprzedaz.csv')  # inna zmiana
 
 sales = 0
 for rekord in lista:
