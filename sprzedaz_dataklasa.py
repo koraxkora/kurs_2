@@ -15,7 +15,7 @@ class Transakcja:
 
     def __str__(self):
         return f'Transakcja z dnia {self.data} w mieście {self.miasto}: {self.sztuk} towaru {self.towar} ' \
-               f'w cenie {self.cena}'
+               f'w cenie {self.cena}al bo zupełnie coś innego'
 
     @property
     def amt(self) -> Decimal:
