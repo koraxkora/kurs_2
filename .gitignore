@@ -1,0 +1,10 @@
+# ignoruj katalogi w root'cie /katalogu głównym projektu /katalog/
+/.idea/
+/venv/
+
+# ignoruj katalogi w całym projekcie katalog/
+.pytest_cash/
+__pycache__/
+
+# ignoruj wszystkei pliki z odanym rozszerzeniem
+*.pyc
