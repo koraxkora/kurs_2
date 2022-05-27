@@ -6,7 +6,7 @@ def bold(f):
 
 def italic(f):
     return lambda *args, **kwargs: f"<i>{f(*args, **kwargs)}</i>"
-
+#zmiana git
 @italic
 @bold
 def foo(arg):
