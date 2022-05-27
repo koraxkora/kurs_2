@@ -115,7 +115,7 @@ def eee(a, b, *args, c='Celina'):
 eee('Ala', 'Basia', 'Cezary', 'Darek', 'Edek')
 
 # Jeśli funkcja ma zadkelarowane jakieś parametry za parametrem *args,
-# to da się je przekazać wyłącznie po nazwie.
+# to da się je przekazać wyłącznie po nazwie   .
 eee('Ala', 'Basia', c='Cezary')
 
 # tutaj Ala i Basia są przekaza jako "positional arguments"
